@@ -252,6 +252,14 @@ management_group_settings = {
       subscription_id       = "$${subscription_id_security}"
       management_group_name = "security"
     }
+    corp = {
+      subscription_id       = "20628674-9c2e-4195-b61f-ad9e73aeb25d"
+      management_group_name = "corp"
+    }
+    confidential-corp = {
+      subscription_id       = "258ddcd2-10b6-4820-b1d0-9a1661a3eb72"
+      management_group_name = "confidential-corp"
+    }
   }
   policy_assignments_to_modify = {
     slz = {

@@ -472,7 +472,7 @@ hub_virtual_networks = {
       name = "$${secondary_firewall_policy_name}"
       sku  = "Premium"
     }
-    virtual_network_gateways = {""
+    virtual_network_gateways = {
       subnet_address_prefix = "$${secondary_gateway_subnet_address_prefix}"
       express_route = {
         name                                  = "$${secondary_virtual_network_gateway_express_route_name}"
@@ -527,3 +527,4 @@ hub_virtual_networks = {
 }
 
 # private_link_private_dns_zone_virtual_network_link_moved_blocks_enabled = true
+

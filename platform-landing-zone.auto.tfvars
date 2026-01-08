@@ -360,6 +360,7 @@ hub_virtual_networks = {
       subnets                       = {}
     }
     firewall = {
+      sku_tier                         = "Premium"
       subnet_address_prefix            = "$${primary_firewall_subnet_address_prefix}"
       management_subnet_address_prefix = "$${primary_firewall_management_subnet_address_prefix}"
       name                             = "$${primary_firewall_name}"
@@ -377,6 +378,7 @@ hub_virtual_networks = {
     }
     firewall_policy = {
       name = "$${primary_firewall_policy_name}"
+      sku  = "Premium"
     }
     virtual_network_gateways = {
       subnet_address_prefix = "$${primary_gateway_subnet_address_prefix}"
@@ -450,6 +452,7 @@ hub_virtual_networks = {
       subnets                       = {}
     }
     firewall = {
+      sku_tier                         = "Premium"
       subnet_address_prefix            = "$${secondary_firewall_subnet_address_prefix}"
       management_subnet_address_prefix = "$${secondary_firewall_management_subnet_address_prefix}"
       name                             = "$${secondary_firewall_name}"
@@ -467,8 +470,9 @@ hub_virtual_networks = {
     }
     firewall_policy = {
       name = "$${secondary_firewall_policy_name}"
+      sku  = "Premium"
     }
-    virtual_network_gateways = {
+    virtual_network_gateways = {""
       subnet_address_prefix = "$${secondary_gateway_subnet_address_prefix}"
       express_route = {
         name                                  = "$${secondary_virtual_network_gateway_express_route_name}"

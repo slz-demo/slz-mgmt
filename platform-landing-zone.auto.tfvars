@@ -283,10 +283,15 @@ management_group_settings = {
             enableAscForCspm                            = "DeployIfNotExists"
           }
         }
+        Reg-Comp-Spain-ENS = {
+          parameters = {
+            ddosPlan                        = "$${ddos_protection_plan_id}"
+            logAnalyticsWorkspaceResourceId = "$${log_analytics_workspace_id}"
+          }
+        }
       }
     }
-  }
-  /*
+    /*
   # Example of how to add management group role assignments
   management_group_role_assignments = {
     root_owner_role_assignment = {
@@ -296,7 +301,8 @@ management_group_settings = {
     }
   }
   */
-  # role_assignment_name_use_random_uuid = false  # Uncomment this for backwards compatibility with previous naming convention
+    # role_assignment_name_use_random_uuid = false  # Uncomment this for backwards compatibility with previous naming convention
+  }
 }
 
 /*
@@ -529,5 +535,3 @@ hub_virtual_networks = {
     }
   }
 }
-
-# private_link_private_dns_zone_virtual_network_link_moved_blocks_enabled = true

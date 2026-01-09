@@ -5,7 +5,7 @@
   "location": "${default_location}",
   "dependsOn": [],
   "identity": {
-    "type": "SystemAssigned"
+    "type": "None"
   },
   "properties": {
     "description": "EU AI Act 2024 1689 policy initiative.",

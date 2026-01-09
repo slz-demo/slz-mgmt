@@ -283,6 +283,11 @@ management_group_settings = {
             enableAscForCspm                            = "DeployIfNotExists"
           }
         }
+        Reg-Comp-Spain-ENS = {
+          parameters = {
+            ddosPlan                        = "$${ddos_protection_plan_id}"
+            logAnalyticsWorkspaceResourceId = "$${log_analytics_workspace_id}"
+          }
       }
     }
   }

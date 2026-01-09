@@ -3,6 +3,9 @@
   "apiVersion": "2024-04-01",
   "name": "Reg-Comp-EU-AI-Act-2024",
   "location": "${default_location}",
+  "identity": {
+    "type": "None"
+  },
   "dependsOn": [],
   "properties": {
     "description": "EU AI Act 2024 1689 policy initiative.",

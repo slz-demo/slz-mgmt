@@ -1,9 +1,7 @@
 {
-  "name": "sovereign_root",
+  "name": "confidential_online",
   "policy_assignments": [
-    "Enforce-Sovereign-Global",
-    "Reg-Comp-EU-AI-Act-2024",
-    "Reg-Comp-Spain-ENS"
+    "Enforce-Sovereign-Conf"
   ],
   "policy_definitions": [],
   "policy_set_definitions": [],

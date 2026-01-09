@@ -4,9 +4,6 @@
   "name": "Reg-Comp-EU-AI-Act-2024",
   "location": "${default_location}",
   "dependsOn": [],
-  "identity": {
-    "type": "SystemAssigned"
-  },
   "properties": {
     "description": "EU AI Act 2024 1689 policy initiative.",
     "displayName": "EU AI Act 2024 1689 - Regulatory Compliance",

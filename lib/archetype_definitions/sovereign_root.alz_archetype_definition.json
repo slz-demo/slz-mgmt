@@ -1,0 +1,11 @@
+{
+  "name": "sovereign_root",
+  "policy_assignments": [
+    "Enforce-Sovereign-Global",
+    "Reg-Comp-Spain-ENS",
+    "Reg-Comp-EU-AI-Act-2024"
+  ],
+  "policy_definitions": [],
+  "policy_set_definitions": [],
+  "role_definitions": []
+}
